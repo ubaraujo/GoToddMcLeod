@@ -11,6 +11,11 @@ func main() {
 	a := [3]int{42, 43, 44}
 	fmt.Println(a)
 
+	// iterate over an array with range
+	for i, v := range a {
+		fmt.Printf("index %v - value %v\n", i, v)
+	}
+
 	// let compiler count elements
 	b := [...]string{"Hello", "Gophers"}
 	fmt.Println(b)
