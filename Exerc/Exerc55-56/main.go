@@ -41,7 +41,7 @@ func main() {
 	fmt.Printf("V1: %v %v %v\n", v1.maker, v1.model, v1.electric)
 	fmt.Printf("V2: %v %v %v\n", v2.maker, v2.model, v2.electric)
 
-	// EXERC 56
+	// EXERC 56 ANONYMOUS STRUCTS
 	person := struct {
 		first     string
 		friends   map[string]int
